@@ -11,13 +11,22 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
-    <script defer src="/fontawesome-free-5.15.4-web/js/all.js"></script> <!--load all styles -->
-    <link href="/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <script defer src="/fontawesome-free-5.15.4-web/js/all.js"></script> <!--load all styles para fontawesone con svg js -->
+    <link href="/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> <!--load all style con css para fontawesome (ya no se usa)-->
+
+ <!-- Style -->
+ <link rel="stylesheet" href="assets/css/styles.css">
+
+ <!-- Google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+
+ <!-- Ionic icons-->
+ <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
 
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Link Necesario para crear tus propios iconos de tamaño 32x32 -->
+    <!-- Link Necesario para crear tus propios iconos favicon de tamaño 32x32 -->
     <link rel="shortcut icon" href="iconos_propios/icono_logo_piso.png">
     <!-- Favicons -->
     <!-- <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -89,7 +98,27 @@
 
     </main>
 
-    <footer class="text-muted py-5">
+    <footer class="text-muted py-5 bgDark ">
+        <div class="container ">
+
+            <ul class="list-inline ">
+                <li class="list-inline-item footer-menu "><a href="# ">Inicio</a></li>
+                <li class="list-inline-item footer-menu "><a href="# ">Portfolio</a></li>
+                <li class="list-inline-item footer-menu "><a href="# ">About us</a></li>
+                <li class="list-inline-item footer-menu "><a href="# ">Pricing</a></li>
+                <li class="list-inline-item footer-menu "><a href="# ">Contáctanos</a></li>
+            </ul>
+            <ul class="list-inline ">
+                <li class="list-inline-item ">
+                    <a href="https://api.whatsapp.com/send?phone=51928110761&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2Fl2jpqPwlU%0A%0AHe%20visto%20esto%20en%20Facebook...&source_url=https%3A%2F%2Ffb.me%2Fl2jpqPwlU&icebreaker=He%20visto%20esto%20en%20Facebook...&app=facebook&entry_point=post_cta&jid=51928110761%40s.whatsapp.net&context=ARAxAuEjFqgo0KDg4KlXAbJ3cZa1N9KlQFnkF7KENIsT1YzibI7G56ubXHvni7Hmps0YJYc6SRDD1r3HaYVkiE7YkSFfIQrIpDkkmjpv8lOZIVdBA2qW8b21FMw09-tdHFyKm8NfsRgmou6I23XwlZrEeeVyIb91w7XnuajmBMk1Wed8DNqkB7u3nc052yTVSuzekoye41Tv8Y5tEXLF6sbQLzgE3SPuZdLQ_Uc8AqP067HwWj___so&fbclid=IwAR3Zs6Dkjzylr_f95jk3QWRLchccV6qxivETFEKKTrfgQi4NIv3YSBHxdu8" target="_blank "><img src="images/whatsapp(4).svg " class="img-fluid "></a>
+
+                </li>
+                <li class="list-inline-item ">
+                    <a href="https://www.facebook.com/Inversionesdecofloor/" target="_blank "><img src="images/facebook(2).svg " class="img-fluid "></a>
+                </li>
+            </ul>
+            <small>©2022 Todos los derechos reservados por O & C Inversiones Decor Floor S.A.C.</small>
+        </div>
         <div class="container">
             <p class="float-end mb-1">
                 <a href="#">Back to top</a>
