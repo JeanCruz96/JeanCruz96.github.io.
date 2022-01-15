@@ -6,6 +6,56 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-fijo {
+    /* se utiliza en la etiqueta header para mantener fijo el navbar */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    /* para que se muestre el nav por delante de imagenes y no quede atras */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    padding-top: 60px;
+    /* el padding superior que sobrepasaba el navbar a la imagen(60px ver con f12 sobre el navbar 44(cuerpo o centro)+8(superior)+8(inferior)=60) */
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.li {
+    display: inline-block;
+}
+
+.album {
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.sombreado {
+    transition: all 0.4s linear;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.sombreado:hover {
+    background: #4a4a4a;
+}
+
 :root {
     --dark-color: #1a1a1a;
     --white-color: #ffffff;
@@ -448,7 +498,7 @@ footer .list-inline .list-inline-item {
 
 @media (min-width: 0) and (max-width: 360px) {
     #portada {
-        background-image: url(../../assets/images/portada2.jpg);
+        background-image: url(../../images/portada.jpg);
         background-size: cover;
         object-fit: cover;
         width: 360px;
