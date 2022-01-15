@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {{--para que el navegador no reduzca los elementos de nuestra pagina a medidad que disminuimos los pixeles--}}
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Album example · Bootstrap v5.1</title>
+    <title>Inicio</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
@@ -16,6 +16,8 @@
 
  <!-- Style -->
  <link rel="stylesheet" href="assets/css/styles.css">
+ <link rel="stylesheet" href="assets/css/bootstrap.css">
+
 
  <!-- Google fonts -->
  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
@@ -59,7 +61,7 @@
 
 <body>
 
-    <header>
+    <header class="nav-fijo">
         <div class="collapse bg-dark" id="navbarHeader">
             <div class="container">
                 <div class="row">
@@ -79,20 +81,45 @@
                 </div>
             </div>
         </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-            <div class="container">
-                <a href="#" class="navbar-brand d-flex align-items-center">
+        <div class=" navbar navbar-dark bg-dark  ">
+                {{-- <a href="#" class="navbar-brand d-flex align-items-center album" style="float:left"  >
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
                     <strong>Album</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                </a> --}}
+
+            <div class="container justify-content-end d-flex" >
+                <ul class="ul  ">
+
+                    <li class="li">
+
+                <a class=" navbar-brand d-flex align-items-center sombreado" style="font-size: 15px" href="#portada">Inicio</a>
+                    </li>
+                    <li class="li">
+
+                <a class=" navbar-brand d-flex align-items-center sombreado"style="font-size: 15px" href="#portfolio">Productos</a>
+                    </li>
+                    <li class="li">
+
+                <a class="nav-link navbar-brand d-flex align-items-center sombreado" style="font-size: 15px" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="li">
+
+                <a class="nav-link navbar-brand d-flex align-items-center sombreado" style="font-size: 15px" href="#contact">Contáctanos</a>
+                    </li>
+            </ul>
+
+
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <nav class="navbar navbar-expand-lg fixed-top collapse navbar-collapse"" id="navbarSupportedContent" >
+
             </div>
-        </div>
+            </div>
+      </nav>
     </header>
 
-    <main>
+    <main class="main">
 {{-- contenido --}}
 @yield('content')
 
