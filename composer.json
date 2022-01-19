@@ -5,7 +5,7 @@
     "keywords": ["framework", "laravel"],
     "post-install-cmd": [
         "php artisan clear-compiled",
-        "chmod -R 755 public/"
+        "chmod -R 775 public/"
 
     ],
     "license": "MIT",
