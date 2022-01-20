@@ -21,6 +21,15 @@
     /* para que se muestre el nav por delante de imagenes y no quede atras */
 }
 
+.nav-fijo-ws {
+    /* se utiliza en la etiqueta header para mantener fijo el navbar */
+    position: fixed;
+    top: 550px;
+    right: 0;
+    z-index: 100;
+    /* para que se muestre el nav por delante de imagenes y no quede atras */
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -508,5 +517,7 @@ footer .list-inline .list-inline-item {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
 
 @media (min-width: 1200px) {}
