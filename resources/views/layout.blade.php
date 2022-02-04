@@ -87,8 +87,9 @@
                     <strong>Album</strong>
                 </a> --}}
 
+                <a href="#"><img src="{{asset('iconos_propios/logo_tamano_reducido.png')}}" style="padding-left: 20px" class="img-fluid" width="100%" alt=""></a>
             <div class="container justify-content-end d-flex" >
-                <ul class="ul  ">
+                <ul class="ul">
 
                     <li class="li">
 
