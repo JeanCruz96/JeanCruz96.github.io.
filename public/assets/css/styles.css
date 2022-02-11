@@ -60,9 +60,9 @@
 }
 
 .album {
+    font-family: 'Titillium Web', sans-serif;
     padding: 0.5rem 1rem;
     display: block;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 .sombreado {
@@ -110,11 +110,11 @@ body {
 }
 
 .bgLightGrey {
-    background-color: var(--light-grey-color);
     height: 70px;
     font-family: 'Titillium Web', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: var(--light-grey-color);
 }
 
 .colorDark {
