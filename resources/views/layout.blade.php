@@ -151,7 +151,7 @@
 
                 </li>
             </ul>
-            <small>©2022 Todos los derechos reservados por O & C Inversiones Decor Floor S.A.C.</small>
+            <small>©2022 Todos los derechos reservados por O & C Inversiones Decor Floor S.A.C</small>
         </div>
         <div class="container">
             <p class="float-end mb-1">
