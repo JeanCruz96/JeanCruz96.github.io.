@@ -130,8 +130,8 @@
 
 
     <div id="map"></div>
-    <script src="{{asset('assets/js/script.js')}}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaamRJqYdyA_fhrKnjmeikSBVFFLojaMs&callback=iniciarMap"></script>
+    {{-- <script src="{{asset('assets/js/script.js')}}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaamRJqYdyA_fhrKnjmeikSBVFFLojaMs&callback=iniciarMap"></script> --}}
 
 
     <footer class="text-muted py-5 bgDark ">
