@@ -24,8 +24,8 @@
 .nav-fijo-ws {
     /* se utiliza en la etiqueta header para mantener fijo el navbar */
     position: fixed;
-    top: 550px;
-    right: -20px;
+    bottom: 10px;
+    right: 10px;
     z-index: 100;
     /* para que se muestre el nav por delante de imagenes y no quede atras */
 }
