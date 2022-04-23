@@ -16,7 +16,7 @@
 
  <!-- Style -->
  <link rel="stylesheet" href="assets/css/styles.css">
- <link rel="stylesheet" href="assets/css/bootstrap.css">
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 
  <!-- Google fonts -->
@@ -37,26 +37,9 @@
     <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
     <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
     <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico"> -->
+    <!-- Google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#7952b3">
-
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-
-
 </head>
 
 <body>
@@ -81,43 +64,40 @@
                 </div>
             </div>
         </div>
-        <div class=" navbar navbar-dark bg-dark  ">
+        <nav class="menu">
                 {{-- <a href="#" class="navbar-brand d-flex align-items-center album" style="float:left"  >
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
                     <strong>Album</strong>
                 </a> --}}
+{{--                 <a href="#"><img src="{{asset('iconos_propios/logo_tamano_reducido.png')}}" style="padding-left: 20px" class="img-fluid" width="100%" alt=""></a>
+ --}}
+                <label class="titulo_logo">
+                   <img src="{{asset('iconos_propios/logo_tamano_reducido.png')}}"  alt="">
+                    O & C Inversiones Decor Floor S.A.C
+                </label>
+                <ul class="menu_items">
 
-                <a href="#"><img src="{{asset('iconos_propios/logo_tamano_reducido.png')}}" style="padding-left: 20px" class="img-fluid" width="100%" alt=""></a>
-            <div class="container justify-content-end d-flex" >
-                <ul class="ul">
-
-                    <li class="li">
-
-                <a class=" navbar-brand d-flex align-items-center sombreado" style="font-size: 15px" href="#portada">Inicio</a>
+                <li class="active">
+                <a class=""  href="#portada">Inicio</a>
+                </li>
+                <li class="active">
+                <a class="" href="#portfolio">Productos</a>
+                </li>
+                <li class="active">
+                <a class=""  href="#servicios">Servicios</a>
                     </li>
-                    <li class="li">
+                    <li class="active">
 
-                <a class=" navbar-brand d-flex align-items-center sombreado"style="font-size: 15px" href="#portfolio">Productos</a>
+                <a class=""  href="#contact">Contáctanos</a>
                     </li>
-                    <li class="li">
 
-                <a class="nav-link navbar-brand d-flex align-items-center sombreado" style="font-size: 15px" href="#servicios">Servicios</a>
-                    </li>
-                    <li class="li">
 
-                <a class="nav-link navbar-brand d-flex align-items-center sombreado" style="font-size: 15px" href="#contact">Contáctanos</a>
-                    </li>
             </ul>
+                <span class="menu_button">
+                <i class="fas fa-bars"></i></span>
 
+        </nav>
 
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <nav class="navbar navbar-expand-lg fixed-top collapse navbar-collapse"" id="navbarSupportedContent" >
-
-            </div>
-            </div>
-      </nav>
     </header>
 
     <main class="main">
@@ -129,8 +109,8 @@
 
 
 
-    {{-- <script src="{{asset('assets/js/script.js')}}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaamRJqYdyA_fhrKnjmeikSBVFFLojaMs&callback=iniciarMap"></script> --}}
+    <script src="{{asset('assets/js/menu_button.js')}}"></script>{{-- archivo vinculado js para el boton de menu en responsive--}}
+  {{--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaamRJqYdyA_fhrKnjmeikSBVFFLojaMs&callback=iniciarMap"></script> --}}
 
     <ul class="list-inline ">
 
