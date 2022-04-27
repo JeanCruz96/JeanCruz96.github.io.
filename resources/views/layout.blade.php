@@ -42,9 +42,26 @@
     <!-- Google fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#7952b3">
+
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Contact.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.10.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Contact">
+    <meta property="og:type" content="website">
 </head>
 
-<body>
+<body data-home-page="Contact.html" data-home-page-title="Contact" class="u-body u-xl-mode">
 
     <header class="nav-fijo">
         <div class="collapse bg-dark" id="navbarHeader">
@@ -83,7 +100,7 @@
                 <a class="href"  href="#portada">Inicio</a>
                 </li>
                 <li class="active">
-                <a class="href" href="#portfolio">Productos</a>
+                <a class="href" href="#productos">Productos</a>
                 </li>
                 <li class="active">
                 <a class="href"  href="#servicios">Servicios</a>
@@ -117,12 +134,12 @@
     <ul class="list-inline ">
 
         <li class="list-inline-item nav-fijo-ws">
-            <a href="https://api.whatsapp.com/send?phone=51928110761&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2Fl2jpqPwlU%0A%0AHe%20visto%20esto%20en%20Facebook...&source_url=https%3A%2F%2Ffb.me%2Fl2jpqPwlU&icebreaker=He%20visto%20esto%20en%20Facebook...&app=facebook&entry_point=post_cta&jid=51928110761%40s.whatsapp.net&context=ARAxAuEjFqgo0KDg4KlXAbJ3cZa1N9KlQFnkF7KENIsT1YzibI7G56ubXHvni7Hmps0YJYc6SRDD1r3HaYVkiE7YkSFfIQrIpDkkmjpv8lOZIVdBA2qW8b21FMw09-tdHFyKm8NfsRgmou6I23XwlZrEeeVyIb91w7XnuajmBMk1Wed8DNqkB7u3nc052yTVSuzekoye41Tv8Y5tEXLF6sbQLzgE3SPuZdLQ_Uc8AqP067HwWj___so&fbclid=IwAR3Zs6Dkjzylr_f95jk3QWRLchccV6qxivETFEKKTrfgQi4NIv3YSBHxdu8" target="_blank "><img src="images/whatsapp(4).svg " class="img-fluid "></a>
+            <a href="https://api.whatsapp.com/send?phone=51928110761" target="_blank "><img src="images/whatsapp(4).svg " class="img-fluid "></a>
 
         </li>
 
     </ul>
-    <footer class="text-muted py-5 bgDark ">
+    <footer class="bgDark ">
         <div class="container ">
 
             <ul class="list-inline ">
@@ -138,26 +155,25 @@
                     <a href="https://www.facebook.com/Inversionesdecofloor/" target="_blank "><img src="images/facebook(2).svg " class="img-fluid "></a>
                 </li>
                 <li class="list-inline-item ">
-                    <a href="https://api.whatsapp.com/send?phone=51928110761&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2Fl2jpqPwlU%0A%0AHe%20visto%20esto%20en%20Facebook...&source_url=https%3A%2F%2Ffb.me%2Fl2jpqPwlU&icebreaker=He%20visto%20esto%20en%20Facebook...&app=facebook&entry_point=post_cta&jid=51928110761%40s.whatsapp.net&context=ARAxAuEjFqgo0KDg4KlXAbJ3cZa1N9KlQFnkF7KENIsT1YzibI7G56ubXHvni7Hmps0YJYc6SRDD1r3HaYVkiE7YkSFfIQrIpDkkmjpv8lOZIVdBA2qW8b21FMw09-tdHFyKm8NfsRgmou6I23XwlZrEeeVyIb91w7XnuajmBMk1Wed8DNqkB7u3nc052yTVSuzekoye41Tv8Y5tEXLF6sbQLzgE3SPuZdLQ_Uc8AqP067HwWj___so&fbclid=IwAR3Zs6Dkjzylr_f95jk3QWRLchccV6qxivETFEKKTrfgQi4NIv3YSBHxdu8" target="_blank "><img src="images/whatsapp(4).svg " class="img-fluid "></a>
+                    <a href="https://api.whatsapp.com/send?phone=51928110761" target="_blank "><img src="images/whatsapp(4).svg " class="img-fluid "></a>
 
                 </li>
             </ul>
             <small>©2022 Todos los derechos reservados por O & C Inversiones Decor Floor S.A.C</small>
         </div>
-        <div class="container">
-            <p class="float-end mb-1">
-                <a href="#">Back to top</a>
-            </p>
-            <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-            <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.1/getting-started/introduction/">getting started guide</a>.</p>
-        </div>
+
     </footer>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.js "></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
 </body>
 
 </html>

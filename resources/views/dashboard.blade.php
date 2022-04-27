@@ -32,7 +32,7 @@
         </div>
     </div>
 </section> --}}
-    <section id="pisos">
+    <section id="productos">
         <div class="bgLightGrey container-fluid">
             <div id="team" class="content-center">
                 <h2><b>Productos</b></h2>
@@ -42,26 +42,23 @@
         <div class="album py-4 bg-white">
             <div class="container">
                 <div class="content-center">
-                    <h2><b>Pisos Laminados</b></h2>
+                    <h2><b>Venta de zócalos de madera matizado</b></h2>
                 </div>
                 <div class="fila">
                     <div class="columna">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
+                        <img src="images/IMG-20210810-WA0004.jpeg" class="" alt="Portfolio 01">
+                        <img src="images/IMG-20201206-WA0003.jpg" class="" alt="Portfolio 01">
+                        <img src="images/164899700_285584239637467_6487346303819565503_n.png" class="" alt="Portfolio 01">
                     </div>
                     <div class="columna">
-                    <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
+                    <img src="images/WhatsApp Image 2022-04-27 at 6.14.28 PM.jpeg" class="" alt="Portfolio 01">
+                        <img src="images/Screenshot_2022-02-12-08-30-48.png" class="" alt="Portfolio 01">
+                        <img src="images/WhatsApp Image 2022-04-27 at 6.11.33 PM.jpeg" class="" alt="Portfolio 01">
                     </div>
                     <div class="columna">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
-                        <img src="images/f1.jpeg" class="" alt="Portfolio 01">
+                        <img src="images/IMG-20201206-WA0003.jpg" class="" alt="Portfolio 01">
+                        <img src="images/Screenshot_2022-02-12-08-30-30.png" class="" alt="Portfolio 01">
+                        <img src="images/WhatsApp Image 2022-04-27 at 6.14.28 PM (1).jpeg" class="" alt="Portfolio 01">
                     </div>
 
                 </div>
@@ -131,6 +128,50 @@
                 </div>
             </div> --}}
 
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <h3> <b>Contáctenos</b></h3>
+                    <p>Déjanos un mensaje. ¿Tienes algún comentario o sugerencia para nosotros? Completa el siguiente formulario para enviarnos lo que nos quieras decir.
+                    </p>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Nombres">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Apellidos">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="" placeholder="Correo Electrónico">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea type="textarea" class="form-control" id="" placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="" placeholder="Numero Telefónico (opcional)">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="" class="btn2 btn-primary2 full-width2">Contact sales</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
