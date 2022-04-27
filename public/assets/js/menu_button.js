@@ -7,4 +7,13 @@ addEventListener('DOMContentLoaded', () => {
             menu_items.classList.toggle('show')
         })
     }
+    const href = document.querySelector('.href')
+    if (href) {
+
+        href.addEventListener('click', () => {
+            const ad = document.querySelector('.menu_items')
+            ad.classList.toggle('hide')
+        })
+    }
+
 })

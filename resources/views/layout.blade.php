@@ -80,17 +80,17 @@
                 <ul class="menu_items">
 
                 <li class="active">
-                <a class=""  href="#portada">Inicio</a>
+                <a class="href"  href="#portada">Inicio</a>
                 </li>
                 <li class="active">
-                <a class="" href="#portfolio">Productos</a>
+                <a class="href" href="#portfolio">Productos</a>
                 </li>
                 <li class="active">
-                <a class=""  href="#servicios">Servicios</a>
+                <a class="href"  href="#servicios">Servicios</a>
                     </li>
                     <li class="active">
 
-                <a class=""  href="#contact">Contáctanos</a>
+                <a class="href"  href="#contact">Contáctanos</a>
                     </li>
 
 
