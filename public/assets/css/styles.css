@@ -265,6 +265,19 @@
             border: 2px solid var(--dark-color);
         }
         
+        .btn-primary2:hover {
+            background-color: var(--gold-color);
+            color: var(--white-color);
+            border: 2px solid var(--gold-color);
+        }
+        
+        .btn-primary2:focus {
+            background-color: var(--dark-color) !important;
+            outline: none;
+            border: 2px solid var(--dark-color) !important;
+            box-shadow: none;
+        }
+        
         .btn-secondary {
             background-color: var(--white-color);
             color: var(--dark-color);
