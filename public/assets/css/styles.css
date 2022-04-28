@@ -107,6 +107,10 @@
             transition: .4s;
         }
         
+        .menu_items li a:hover {
+            color: var(--gold-color);
+        }
+        
         .menu_button {
             font-size: 25px;
             color: #fff;
