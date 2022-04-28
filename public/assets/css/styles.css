@@ -102,6 +102,10 @@
             color: #fff;
         }
         
+        .menu_items li a:hover {
+            color: var(--gold-color);
+        }
+        
         .menu_items li:hover {
             background-color: #4a4a4a;
             transition: .4s;
