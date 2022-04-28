@@ -39,6 +39,7 @@
             </div>
         </div>
 
+
         <div class="album py-4 bg-white">
             <div class="container">
                 <div class="content-center">
@@ -133,6 +134,7 @@
     </section>
 
     <section id="contact">
+        <form action="https://formsubmit.co/cruzjean52@gmail.com" method="POST">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-4">
@@ -142,38 +144,35 @@
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Nombres">
+                                <input type="text" required  name="nombres" class="form-control" id="nombres" placeholder="Nombres Completos">
                             </div>
                         </div>
-                        <div class="col-md-6">
+
+                        <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Apellidos">
+                                <input type="email"required name="correo"  class="form-control" id="correo" placeholder="Correo Electrónico">
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="" placeholder="Correo Electrónico">
+                                <textarea type="textarea"  name="mensaje" required class="form-control" id="mensaje" placeholder="Mensaje"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <textarea type="textarea" class="form-control" id="" placeholder="Mensaje"></textarea>
+                                <input type="number" name="telefono" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==9) return false;" class="form-control" id="telefono" placeholder="Numero Telefónico (opcional)">
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="number" class="form-control" id="" placeholder="Numero Telefónico (opcional)">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <a href="" class="btn2 btn-primary2 full-width2">Contact sales</a>
+                            <button type="submit" href="" class="btn2 btn-primary2 full-width2">Enviar</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </form>
     </section>
 
 
