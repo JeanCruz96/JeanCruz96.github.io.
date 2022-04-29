@@ -17,7 +17,7 @@
                 <br>
                 <p class="sombra"  ><h1 class="mt-5 sombra"><strong>Instalación de Pisos Laminados<br>
                         O & C Inversiones Decor Floor S.A.C</strong></h1></p>
-                <p class="sombra" style="color:whitesmoke;font-size: 25px"><strong>Instalación, reparación y venta de pisos laminados
+                <p class="sombra" style="color:whitesmoke;font-size: 20px"><strong>Instalación, reparación y venta de pisos laminados
                     </strong> <br>
                     <strong>Instalación, reparación y venta de zócalos de madera</strong>
                 </p>

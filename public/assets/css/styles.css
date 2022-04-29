@@ -171,7 +171,7 @@
         }
 
         .sombra {
-            text-shadow: 3px 3px 3px var(--dark-color);
+            text-shadow: 2px 2px 3px var(--dark-color);
             margin-bottom: 20px;
         }
 
