@@ -139,24 +139,22 @@
         </li>
 
     </ul>
-    <footer class="bgDark ">
+    <footer class="bgDark">
         <div class="container ">
 
             <ul class="list-inline ">
-                <li class="list-inline-item footer-menu "><a href="# ">Inicio</a></li>
-                <li class="list-inline-item footer-menu "><a href="# ">Portfolio</a></li>
-                <li class="list-inline-item footer-menu "><a href="# ">About us</a></li>
-                <li class="list-inline-item footer-menu "><a href="# ">Pricing</a></li>
-                <li class="list-inline-item footer-menu "><a href="# ">Contáctanos</a></li>
+                <li class="list-inline-item footer-menu "><a href="#portada ">Inicio</a></li>
+                <li class="list-inline-item footer-menu "><a href="#productos ">Productos</a></li>
+                <li class="list-inline-item footer-menu "><a href="#servicios ">Servicios</a></li>
+                <li class="list-inline-item footer-menu "><a href="#contact ">Contáctanos</a></li>
             </ul>
 
-            <ul class="list-inline ">
+            <ul class="list-inline">
                 <li class="list-inline-item ">
-                    <a href="https://www.facebook.com/Inversionesdecofloor/" target="_blank "><img src="images/facebook(2).svg " class="img-fluid "></a>
+                    <a href="https://www.facebook.com/Inversionesdecofloor/" style="margin-left: 8px;" target="_blank "><img src="images/facebook(2).svg " class="img-fluid"></a>
                 </li>
                 <li class="list-inline-item ">
-                    <a href="https://api.whatsapp.com/send?phone=51928110761" target="_blank "><img src="images/whatsapp(4).svg " class="img-fluid "></a>
-
+                    <a href="https://api.whatsapp.com/send?phone=51928110761" target="_blank "><img src="images/whatsapp(4).svg " class="img-fluid"></a>
                 </li>
             </ul>
             <small>©2022 Todos los derechos reservados por O & C Inversiones Decor Floor S.A.C</small>
