@@ -149,7 +149,7 @@
                 <li class="list-inline-item footer-menu "><a href="#contact ">Contáctanos</a></li>
             </ul>
 
-            <ul class="list-inline">
+            <ul class="list-inline2">
                 <li class="list-inline-item ">
                     <a href="https://www.facebook.com/Inversionesdecofloor/" style="margin: 0px;" target="_blank "><img src="images/facebook(2).svg " class="img-fluid"></a>
                 </li>
